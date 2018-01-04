@@ -1,0 +1,22 @@
+{
+  "name": "Coletiv",
+  "version": "0.1.0",
+  "summary": "A short description of Coletiv.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dfalmeida/Coletiv",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dfalmeida": "dfalmeida08@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dfalmeida/Coletiv.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Coletiv/Classes/**/*"
+}

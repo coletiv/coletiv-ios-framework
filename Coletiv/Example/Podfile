@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Coletiv_Tests' do
+  pod 'Coletiv', :path => '../'
+  
+  
+end
