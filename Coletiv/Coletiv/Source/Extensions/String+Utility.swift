@@ -5,8 +5,6 @@
 //  Created by Daniel Almeida on 03/01/2018.
 //
 
-//ONLY FOR TEST
-
 import Foundation
 
 extension String {

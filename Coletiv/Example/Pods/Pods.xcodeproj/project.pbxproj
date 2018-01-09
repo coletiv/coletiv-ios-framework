@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		01AD0C9A4C270DB1183D70E93F5D7FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0E8EF9BA276A0960BE72515D1D37817B /* Pods-Coletiv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8055AE2CADF07C88F052A6F13CF02092 /* Pods-Coletiv_Tests-dummy.m */; };
-		10E3C8101FFE49FC00E46CCA /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E3C80F1FFE49FC00E46CCA /* String+Utility.swift */; };
 		1A77C45A80B99908A8679F1F0BE57FDC /* Coletiv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F339D1029F5B842C0A61C9C68B870 /* Coletiv-dummy.m */; };
 		2271537CDED4C75B9D2B13BE69808EF0 /* Coletiv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E35C1BFF17815F4809C316A8BB54F326 /* Coletiv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5135483EFFA46E2ACA1B3C68E56A8F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,7 +29,22 @@
 		07DB34E241F983EB371DF0FC4CDAF5CD /* Coletiv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Coletiv.modulemap; sourceTree = "<group>"; };
 		0FDB5F47D6B549AEC0F07287ACC4FD3F /* Pods-Coletiv_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coletiv_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0FE3C132B744747D5FB0BD55530BD04F /* Pods-Coletiv_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coletiv_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10E3C80F1FFE49FC00E46CCA /* String+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Utility.swift"; path = "../Coletiv/Source/String+Utility.swift"; sourceTree = "<group>"; };
+		10FE076120038474008848B5 /* NSLayoutConstraint+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Utility.swift"; sourceTree = "<group>"; };
+		10FE076220038474008848B5 /* UIImage+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
+		10FE076320038474008848B5 /* Array+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utility.swift"; sourceTree = "<group>"; };
+		10FE076420038474008848B5 /* UIAlertController+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Utility.swift"; sourceTree = "<group>"; };
+		10FE076520038474008848B5 /* UITableView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Utility.swift"; sourceTree = "<group>"; };
+		10FE076620038474008848B5 /* String+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utility.swift"; sourceTree = "<group>"; };
+		10FE076720038474008848B5 /* CAGradientLayer+Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Gradients.swift"; sourceTree = "<group>"; };
+		10FE076820038474008848B5 /* Float+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Utility.swift"; sourceTree = "<group>"; };
+		10FE076920038474008848B5 /* UIApplication+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Utility.swift"; sourceTree = "<group>"; };
+		10FE076A20038474008848B5 /* UIViewController+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utility.swift"; sourceTree = "<group>"; };
+		10FE076B20038474008848B5 /* Date+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utility.swift"; sourceTree = "<group>"; };
+		10FE076C20038474008848B5 /* UICollectionView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Utility.swift"; sourceTree = "<group>"; };
+		10FE076D20038474008848B5 /* UITextField+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Utility.swift"; sourceTree = "<group>"; };
+		10FE076E20038474008848B5 /* NSMutableAttributedString+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Utility.swift"; sourceTree = "<group>"; };
+		10FE076F20038474008848B5 /* UIViewControllerContextTransitioning+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllerContextTransitioning+Utility.swift"; sourceTree = "<group>"; };
+		10FE077020038474008848B5 /* UIView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utility.swift"; sourceTree = "<group>"; };
 		29D2802375F9104DF372287649163368 /* Pods_Coletiv_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coletiv_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3395D8AD90CCDBD995DDE4FC6AF84B8B /* Pods-Coletiv_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coletiv_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C99AADF8C4FCBA580A30B57A3F43B81 /* Pods-Coletiv_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coletiv_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -100,9 +114,33 @@
 		10E3C80E1FFE49E200E46CCA /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				10E3C80F1FFE49FC00E46CCA /* String+Utility.swift */,
+				10FE076020038474008848B5 /* Extensions */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		10FE076020038474008848B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10FE076120038474008848B5 /* NSLayoutConstraint+Utility.swift */,
+				10FE076220038474008848B5 /* UIImage+Utility.swift */,
+				10FE076320038474008848B5 /* Array+Utility.swift */,
+				10FE076420038474008848B5 /* UIAlertController+Utility.swift */,
+				10FE076520038474008848B5 /* UITableView+Utility.swift */,
+				10FE076620038474008848B5 /* String+Utility.swift */,
+				10FE076720038474008848B5 /* CAGradientLayer+Gradients.swift */,
+				10FE076820038474008848B5 /* Float+Utility.swift */,
+				10FE076920038474008848B5 /* UIApplication+Utility.swift */,
+				10FE076A20038474008848B5 /* UIViewController+Utility.swift */,
+				10FE076B20038474008848B5 /* Date+Utility.swift */,
+				10FE076C20038474008848B5 /* UICollectionView+Utility.swift */,
+				10FE076D20038474008848B5 /* UITextField+Utility.swift */,
+				10FE076E20038474008848B5 /* NSMutableAttributedString+Utility.swift */,
+				10FE076F20038474008848B5 /* UIViewControllerContextTransitioning+Utility.swift */,
+				10FE077020038474008848B5 /* UIView+Utility.swift */,
+			);
+			name = Extensions;
+			path = ../Coletiv/Source/Extensions;
 			sourceTree = "<group>";
 		};
 		1C78E8E201EAED103883446C2EC1C8D1 /* Targets Support Files */ = {
@@ -276,7 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A77C45A80B99908A8679F1F0BE57FDC /* Coletiv-dummy.m in Sources */,
-				10E3C8101FFE49FC00E46CCA /* String+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
