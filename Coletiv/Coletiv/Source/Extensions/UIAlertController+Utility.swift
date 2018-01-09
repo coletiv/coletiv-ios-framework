@@ -22,9 +22,11 @@ extension UIAlertController {
     self.init(title: title, message: message, preferredStyle: .alert)
     
     if let actionTitle = actionTitle {
-      add(action: actionTitle)
+      add(actionTitle: actionTitle)
     }
   }
+  
+  //MARK: - Other
   
   /// Add an action to the alert with the .default style
   ///

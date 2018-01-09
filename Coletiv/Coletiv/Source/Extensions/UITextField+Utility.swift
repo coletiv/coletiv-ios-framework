@@ -10,6 +10,7 @@ import UIKit
 
 extension UITextField {
   
+  /// Defines the place holder color within the interface
   @IBInspectable var placeHolderColor: UIColor {
     get {
       return self.placeHolderColor

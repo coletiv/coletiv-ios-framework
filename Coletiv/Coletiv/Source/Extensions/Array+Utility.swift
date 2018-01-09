@@ -9,13 +9,13 @@
 // MARK: - Array comparation
 
 //thanks to -> https://stackoverflow.com/questions/36714522/how-do-i-check-in-swift-if-two-arrays-contain-the-same-elements-regardless-of-th
-extension Array where Element: Comparable {
+public extension Array where Element: Comparable {
   
   /// Compare two array elements
   ///
   /// - Parameter other: array to compare with
   /// - Returns: true if the arrays are equal
-  func same(as other: [Element]) -> Bool {
+  public func same(as other: [Element]) -> Bool {
     return count == other.count && sorted() == other.sorted()
   }
   
@@ -23,13 +23,13 @@ extension Array where Element: Comparable {
 
 // MARK: - Others
 
-extension Array {
+public extension Array {
   
   /// Ensure that when accessing an element located at **Index** an out of bounds exception will not be raised
   /// Returns **nil** if no argument
   ///
   /// - Parameter index: array index to safe access
-  subscript (safe index: Index) -> Element? {
+  public subscript (safe index: Index) -> Element? {
     return indices.contains(index) ? self[index] : nil
   }
   

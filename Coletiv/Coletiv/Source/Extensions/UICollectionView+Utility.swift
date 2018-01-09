@@ -10,6 +10,10 @@ import UIKit
 
 extension UICollectionView {
   
+  /// Validate if the row exists within the section of **indexPath**
+  ///
+  /// - Parameter indexPath: index path that contains the section and row
+  /// - Returns: **true** if exists
   func hasRow(forIndexPath indexPath: IndexPath) -> Bool {
     return indexPath.section < self.numberOfSections && indexPath.row < self.numberOfItems(inSection: indexPath.section)
   }

@@ -10,8 +10,6 @@ import UIKit
 
 extension NSLayoutConstraint {
   
-  //MARK: - Inits
-  
   /// Init with default values
   ///
   /// - Parameters:

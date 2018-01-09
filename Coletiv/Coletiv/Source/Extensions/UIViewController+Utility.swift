@@ -9,11 +9,16 @@
 import UIKit
 
 extension UIViewController {
-  
-  // This method presents the view controller from the visible top most view controller
-  // https://stackoverflow.com/questions/15961288/presenting-a-modal-controller-without-knowing-the-current-view-controller
-  // (slightly modified)
+
+  /// This method presents the view controller from the visible top most view controller
+  /// https://stackoverflow.com/questions/15961288/presenting-a-modal-controller-without-knowing-the-current-view-controller
+  ///
+  /// - Parameters:
+  ///   - viewController: view conetroller that will be presented
+  ///   - animated: true if it will be animated
+  ///   - completion: completion handler
   func presentFromVisible(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
+    
     if let navigationController = self as? UINavigationController {
       navigationController.topViewController?.presentFromVisible(viewController, animated: animated, completion: completion)
     } else if let tabBarController = self as? UITabBarController {
@@ -23,6 +28,7 @@ extension UIViewController {
     } else {
       present(viewController, animated: animated, completion: completion)
     }
+    
   }
   
 }
