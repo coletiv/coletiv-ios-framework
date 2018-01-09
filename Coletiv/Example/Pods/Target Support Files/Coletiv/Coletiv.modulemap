@@ -1,0 +1,6 @@
+framework module Coletiv {
+  umbrella header "Coletiv-umbrella.h"
+
+  export *
+  module * { export * }
+}
