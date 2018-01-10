@@ -12,7 +12,7 @@ class UIViewTestCase: XCTestCase {
     
   func testShortcuts() {
     
-    let view = UIView.init(color: UIColor.red)
+    let view = UIView(color: UIColor.red)
     
     assert(view.backgroundColor == UIColor.red)
     

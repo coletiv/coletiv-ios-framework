@@ -24,10 +24,11 @@ class StringTestCase: XCTestCase {
   
   func testString() {
     
-    //localized TODO - find a way to access the localization files
+    //localized TODO - find a way to access the localized files
     //assert(("string_test".localized == "test_ok"))
     
     //attributes
+    
     assert("string".attributed is NSAttributedString && "string".attributed.string == "string")
     
     //mutable attributed

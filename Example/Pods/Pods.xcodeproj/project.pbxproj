@@ -23,7 +23,6 @@
 		10A24653200527E00083209A /* UICollectionView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0787200521B8008848B5 /* UICollectionView+Utility.swift */; };
 		10A24654200527E00083209A /* UITextField+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0788200521B8008848B5 /* UITextField+Utility.swift */; };
 		10A24655200527E00083209A /* NSMutableAttributedString+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */; };
-		10A24656200527E00083209A /* UIViewControllerContextTransitioning+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE078A200521B8008848B5 /* UIViewControllerContextTransitioning+Utility.swift */; };
 		10A24657200527E00083209A /* UIView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE078B200521B8008848B5 /* UIView+Utility.swift */; };
 		10A24658200527E70083209A /* NSLayoutConstraint+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */; };
 		10A24659200527E70083209A /* UIImage+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE077D200521B8008848B5 /* UIImage+Utility.swift */; };
@@ -38,7 +37,6 @@
 		10A24662200527E70083209A /* UICollectionView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0787200521B8008848B5 /* UICollectionView+Utility.swift */; };
 		10A24663200527E70083209A /* UITextField+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0788200521B8008848B5 /* UITextField+Utility.swift */; };
 		10A24664200527E70083209A /* NSMutableAttributedString+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */; };
-		10A24665200527E70083209A /* UIViewControllerContextTransitioning+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE078A200521B8008848B5 /* UIViewControllerContextTransitioning+Utility.swift */; };
 		10A24666200527E70083209A /* UIView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE078B200521B8008848B5 /* UIView+Utility.swift */; };
 		4F97D6E8FEE970007746CE400B801E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5135483EFFA46E2ACA1B3C68E56A8F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -75,7 +73,6 @@
 		10FE0787200521B8008848B5 /* UICollectionView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Utility.swift"; sourceTree = "<group>"; };
 		10FE0788200521B8008848B5 /* UITextField+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Utility.swift"; sourceTree = "<group>"; };
 		10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Utility.swift"; sourceTree = "<group>"; };
-		10FE078A200521B8008848B5 /* UIViewControllerContextTransitioning+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllerContextTransitioning+Utility.swift"; sourceTree = "<group>"; };
 		10FE078B200521B8008848B5 /* UIView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utility.swift"; sourceTree = "<group>"; };
 		29D2802375F9104DF372287649163368 /* Pods_Coletiv_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coletiv_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3395D8AD90CCDBD995DDE4FC6AF84B8B /* Pods-Coletiv_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Coletiv_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,16 +154,11 @@
 			path = "Target Support Files/Pods-Coletiv_Tests";
 			sourceTree = "<group>";
 		};
-		10FE077B200521B8008848B5 /* Extensions */ = {
+		10730D17200685E900114603 /* UiKit */ = {
 			isa = PBXGroup;
 			children = (
-				10FE077E200521B8008848B5 /* Array+Utility.swift */,
-				10FE0782200521B8008848B5 /* CAGradientLayer+Gradients.swift */,
-				10FE0786200521B8008848B5 /* Date+Utility.swift */,
-				10FE0783200521B8008848B5 /* Float+Utility.swift */,
 				10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */,
-				10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */,
-				10FE0781200521B8008848B5 /* String+Utility.swift */,
+				10FE0782200521B8008848B5 /* CAGradientLayer+Gradients.swift */,
 				10FE077F200521B8008848B5 /* UIAlertController+Utility.swift */,
 				10FE0784200521B8008848B5 /* UIApplication+Utility.swift */,
 				10FE0787200521B8008848B5 /* UICollectionView+Utility.swift */,
@@ -175,7 +167,27 @@
 				10FE0788200521B8008848B5 /* UITextField+Utility.swift */,
 				10FE078B200521B8008848B5 /* UIView+Utility.swift */,
 				10FE0785200521B8008848B5 /* UIViewController+Utility.swift */,
-				10FE078A200521B8008848B5 /* UIViewControllerContextTransitioning+Utility.swift */,
+			);
+			path = UiKit;
+			sourceTree = "<group>";
+		};
+		10730D182006860C00114603 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				10FE077E200521B8008848B5 /* Array+Utility.swift */,
+				10FE0786200521B8008848B5 /* Date+Utility.swift */,
+				10FE0783200521B8008848B5 /* Float+Utility.swift */,
+				10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */,
+				10FE0781200521B8008848B5 /* String+Utility.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		10FE077B200521B8008848B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10730D182006860C00114603 /* Foundation */,
+				10730D17200685E900114603 /* UiKit */,
 			);
 			name = Extensions;
 			path = Coletiv/Source/Extensions;
@@ -336,7 +348,6 @@
 				10A24653200527E00083209A /* UICollectionView+Utility.swift in Sources */,
 				10A24654200527E00083209A /* UITextField+Utility.swift in Sources */,
 				10A24655200527E00083209A /* NSMutableAttributedString+Utility.swift in Sources */,
-				10A24656200527E00083209A /* UIViewControllerContextTransitioning+Utility.swift in Sources */,
 				10A24657200527E00083209A /* UIView+Utility.swift in Sources */,
 				D8B97FD06152CCD65F89EED50265A6FD /* Coletiv-dummy.m in Sources */,
 				10A246482005274C0083209A /* String+Utility.swift in Sources */,
@@ -360,7 +371,6 @@
 				10A24662200527E70083209A /* UICollectionView+Utility.swift in Sources */,
 				10A24663200527E70083209A /* UITextField+Utility.swift in Sources */,
 				10A24664200527E70083209A /* NSMutableAttributedString+Utility.swift in Sources */,
-				10A24665200527E70083209A /* UIViewControllerContextTransitioning+Utility.swift in Sources */,
 				10A24666200527E70083209A /* UIView+Utility.swift in Sources */,
 				0E8EF9BA276A0960BE72515D1D37817B /* Pods-Coletiv_Tests-dummy.m in Sources */,
 				10A246472005274C0083209A /* String+Utility.swift in Sources */,
