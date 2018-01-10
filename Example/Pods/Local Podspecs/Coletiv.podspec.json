@@ -1,16 +1,22 @@
 {
   "name": "Coletiv",
-  "version": "0.1",
-  "summary": "This framework contains the common code for the Coletiv iOS apps.",
-  "description": "Coletiv contains extensions, subclasses, methods... Used within the Swift projects.",
-  "homepage": "https://github.com/coletiv/coletiv-ios-framework.git",
-  "authors": "Coletiv Studio",
-  "platforms": {
-    "ios": "9.0"
+  "version": "0.1.0",
+  "summary": "A short description of Coletiv.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dfalmeida/Coletiv",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dfalmeida": "dfalmeida08@gmail.com"
   },
   "source": {
-    "git": "https://github.com/coletiv/coletiv-ios-framework.git",
-    "branch": "master"
+    "git": "https://github.com/dfalmeida/Coletiv.git",
+    "tag": "0.1.0"
   },
-  "source_files": "Coletiv/**/*"
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Coletiv/Classes/**/*"
 }

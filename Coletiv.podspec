@@ -13,7 +13,7 @@ s.author        = 'Coletiv Studio'
 s.platform      = :ios, '9.0'
 
 s.source        = { :git => 'https://github.com/coletiv/coletiv-ios-framework.git', :branch => 'master' }
-s.source_files  = "Coletiv/**/*"
+s.source_files  = 'Coletiv', 'Coletiv/**/*.{h,m,swift}'
 
 end
 
