@@ -23,7 +23,6 @@ class FloatTestCase: XCTestCase {
     assert(number2.clean == "0.234")
     assert(number3.clean == "1.1")
     assert(number4.clean == "1")
-    
   }
     
 }

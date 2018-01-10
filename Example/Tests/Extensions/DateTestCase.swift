@@ -22,10 +22,7 @@ class DateTestCase: XCTestCase {
       let dateAfter1Minute = formatter.date(from: "2018/01/02 10:01"),
       let dateAfter120Minute = formatter.date(from: "2018/01/02 12:00"),
       let dateBefore60Minutes = formatter.date(from: "2018/01/02 09:00")
-    else {
-      assert(false)
-      return
-    }
+      else { assert(false) }
     
     assert(dateAfter1Minute.minutes(from: startDate) == 1)
     assert(dateAfter120Minute.minutes(from: startDate) == 120)

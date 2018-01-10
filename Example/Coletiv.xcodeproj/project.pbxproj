@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10730D11200639DB00114603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10730D10200639DB00114603 /* Assets.xcassets */; };
 		10A24668200533370083209A /* DateTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24667200533370083209A /* DateTestCase.swift */; };
 		10A2466A200539A10083209A /* FloatTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24669200539A10083209A /* FloatTestCase.swift */; };
 		10A2466C20053C350083209A /* ImageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2466B20053C350083209A /* ImageTestCase.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10730D10200639DB00114603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10A24667200533370083209A /* DateTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTestCase.swift; sourceTree = "<group>"; };
 		10A24669200539A10083209A /* FloatTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTestCase.swift; sourceTree = "<group>"; };
 		10A2466B20053C350083209A /* ImageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestCase.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		10FE07722005147F008848B5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				10730D10200639DB00114603 /* Assets.xcassets */,
 				10FE077920051516008848B5 /* Test.strings */,
 			);
 			path = Resources;
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10730D11200639DB00114603 /* Assets.xcassets in Resources */,
 				10FE077720051516008848B5 /* Test.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

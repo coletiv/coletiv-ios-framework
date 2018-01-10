@@ -23,7 +23,6 @@ public extension UIImage {
     return UIGraphicsGetImageFromCurrentImageContext()
   }
   
-  
   /// Return an image resized proportionally (width and height) based on its width
   ///
   /// - Parameter width: new width
