@@ -8,12 +8,12 @@
 
 import UIKit
 
-extension NSMutableAttributedString {
+public extension NSMutableAttributedString {
   
   //MARK: Vars
   
   /// Range
-  var range: NSRange {
+  public var range: NSRange {
     return (string as NSString).range(of: string)
   }
 
@@ -22,14 +22,14 @@ extension NSMutableAttributedString {
   /// Add the color to the foreground of the mutable string
   ///
   /// - Parameter color: foreground color
-  func add(color: UIColor) {
+  public func add(color: UIColor) {
     addAttributes([NSAttributedStringKey.foregroundColor: color], range: range)
   }
   
   /// Add kerning value the the string
   ///
   /// - Parameter kern: kerning
-  func add(kern: CGFloat) {
+  public func add(kern: CGFloat) {
     addAttributes([NSAttributedStringKey.kern: kern], range: range)
   }
   
@@ -38,7 +38,7 @@ extension NSMutableAttributedString {
   /// - Parameters:
   ///   - fontSize: font size
   ///   - weight: font weight
-  func add(fontSize: CGFloat, weight: CGFloat) {
+  public func add(fontSize: CGFloat, weight: CGFloat) {
     let font = UIFont.systemFont(ofSize: fontSize, weight: UIFont.Weight(rawValue: weight))
     addAttributes([NSAttributedStringKey.font: font], range: range)
   }
@@ -49,7 +49,7 @@ extension NSMutableAttributedString {
   ///   - color: font color
   ///   - fontSize: font size
   ///   - weight: font weight
-  func add(color: UIColor, fontSize: CGFloat, weight: CGFloat) {
+  public func add(color: UIColor, fontSize: CGFloat, weight: CGFloat) {
     add(color: color)
     add(fontSize: fontSize, weight: weight)
   }
@@ -61,7 +61,7 @@ extension NSMutableAttributedString {
   ///   - fontSize: font size
   ///   - weight: font weight
   ///   - lineSpacing: line spacing
-  func add(color: UIColor, fontSize: CGFloat, weight: CGFloat, lineSpacing: CGFloat) {
+  public func add(color: UIColor, fontSize: CGFloat, weight: CGFloat, lineSpacing: CGFloat) {
     add(color: color, fontSize: fontSize, weight: weight)
     
     let paragraphStyle = NSMutableParagraphStyle()
@@ -73,7 +73,7 @@ extension NSMutableAttributedString {
   /// Set the font line spacing
   ///
   /// - Parameter lineSpacing: line spacing
-  func add(lineSpacing: CGFloat) {
+  public func add(lineSpacing: CGFloat) {
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.lineSpacing = lineSpacing
     
@@ -83,7 +83,7 @@ extension NSMutableAttributedString {
   /// Set the font line height
   ///
   /// - Parameter lineHeight: line height
-  func add(lineHeight: CGFloat) {
+  public func add(lineHeight: CGFloat) {
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.minimumLineHeight = lineHeight
     paragraphStyle.maximumLineHeight = lineHeight
@@ -92,7 +92,7 @@ extension NSMutableAttributedString {
   }
   
   /// Set the strikethroughStyle for the string
-  func addStrikeThrough() {
+  public func addStrikeThrough() {
     addAttributes([NSAttributedStringKey.strikethroughStyle: NSUnderlineStyle.styleSingle.rawValue], range: range)
   }
   

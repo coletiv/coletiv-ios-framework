@@ -7,11 +7,11 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
   
   //MARK: - Inits
   
-  convenience init(color: UIColor) {
+  public convenience init(color: UIColor) {
     self.init()
     backgroundColor = color
   }
@@ -19,33 +19,33 @@ extension UIView {
   // MARK: - Frame shortcuts
   
   /// Origin's x position
-  var x: CGFloat {
+  public var x: CGFloat {
     return frame.origin.x
   }
   
   /// Origin's y position
-  var y: CGFloat {
+  public var y: CGFloat {
     return frame.origin.y
   }
   
   /// Framw size
-  var size: CGSize {
+  public var size: CGSize {
     return frame.size
   }
   
   /// Frame width
-  var width: CGFloat {
+  public var width: CGFloat {
     return frame.width
   }
   
   /// Frame height
-  var height: CGFloat {
+  public var height: CGFloat {
     return frame.height
   }
   
   // MARK: - Animations
   
-  typealias Animations = () -> ()
+  public typealias Animations = () -> ()
   
   /// The velocity needs to be adjusted between a min and max value in order to smooth the interaction
   ///
@@ -61,7 +61,7 @@ extension UIView {
   /// - Parameters:
   ///   - velocity: velocity
   ///   - animations: animations that will be performed
-  class func springAnimation(withVelocity velocity: CGFloat = 0, animations: @escaping Animations) {
+  public class func springAnimation(withVelocity velocity: CGFloat = 0, animations: @escaping Animations) {
     let initial = initialVelocity(from: velocity)
     
     UIView.animate(withDuration: 0.3, delay: 0.0,

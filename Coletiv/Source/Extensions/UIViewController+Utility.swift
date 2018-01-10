@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
 
   /// This method presents the view controller from the visible top most view controller
   /// https://stackoverflow.com/questions/15961288/presenting-a-modal-controller-without-knowing-the-current-view-controller
@@ -17,7 +17,7 @@ extension UIViewController {
   ///   - viewController: view conetroller that will be presented
   ///   - animated: true if it will be animated
   ///   - completion: completion handler
-  func presentFromVisible(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
+  public func presentFromVisible(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
     
     if let navigationController = self as? UINavigationController {
       navigationController.topViewController?.presentFromVisible(viewController, animated: animated, completion: completion)

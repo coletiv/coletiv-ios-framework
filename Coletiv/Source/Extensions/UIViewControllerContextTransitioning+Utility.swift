@@ -10,21 +10,21 @@ import UIKit
 
 //TODO - verify usage
 
-extension UIViewControllerContextTransitioning {
+public extension UIViewControllerContextTransitioning {
   
-  var toViewController: UIViewController {
+  public var toViewController: UIViewController {
     return viewController(forKey: .to)!
   }
   
-  var fromViewController: UIViewController {
+  public var fromViewController: UIViewController {
     return viewController(forKey: .from)!
   }
   
-  var toView: UIView {
+  public var toView: UIView {
     return view(forKey: .to)!
   }
   
-  var fromView: UIView {
+  public var fromView: UIView {
     return view(forKey: .from)!
   }
   

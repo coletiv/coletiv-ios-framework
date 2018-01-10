@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
   
   //MARK: - Resize image methods
   
@@ -16,7 +16,7 @@ extension UIImage {
   ///
   /// - Parameter size: new image size
   /// - Returns: resized image
-  func resize(toSize size: CGSize) -> UIImage? {
+  public func resize(toSize size: CGSize) -> UIImage? {
     UIGraphicsBeginImageContextWithOptions(size, false, scale)
     defer { UIGraphicsEndImageContext() }
     draw(in: CGRect(origin: .zero, size: size))
@@ -28,7 +28,7 @@ extension UIImage {
   ///
   /// - Parameter width: new width
   /// - Returns: resized image
-  func resize(toWidth width: CGFloat) -> UIImage? {
+  public func resize(toWidth width: CGFloat) -> UIImage? {
     let height = CGFloat(ceil(width/size.width * size.height))
     return resize(toSize: CGSize(width: width, height: height))
   }
@@ -37,7 +37,7 @@ extension UIImage {
   ///
   /// - Parameter height: new height
   /// - Returns: resized image
-  func resize(toHeight height: CGFloat) -> UIImage? {
+  public func resize(toHeight height: CGFloat) -> UIImage? {
     let width = CGFloat(ceil(height/size.height * size.width))
     return resize(toSize: CGSize(width: width, height: height))
   }

@@ -8,14 +8,14 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
   
   
   /// Validate if the row for the provided indexPAth exists
   ///
   /// - Parameter indexPath: indexPath to validate
   /// - Returns: true if the row exists
-  func hasRow(forIndexPath indexPath: IndexPath) -> Bool {
+  public func hasRow(forIndexPath indexPath: IndexPath) -> Bool {
     return indexPath.section < self.numberOfSections && indexPath.row < self.numberOfRows(inSection: indexPath.section)
   }
   

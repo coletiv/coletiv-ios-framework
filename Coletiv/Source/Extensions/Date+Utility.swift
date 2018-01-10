@@ -8,13 +8,13 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
   
   /// Returns the amount of minutes from another date.
   ///
   /// - Parameter date: starting date
   /// - Returns: duration in minutes
-  func minutes(from date: Date) -> Int {
+  public func minutes(from date: Date) -> Int {
     return Calendar.current.dateComponents([.minute],
                                            from: date,
                                            to: self).minute ?? 0

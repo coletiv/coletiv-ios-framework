@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
   
   /// Defines the place holder color within the interface
   @IBInspectable var placeHolderColor: UIColor {

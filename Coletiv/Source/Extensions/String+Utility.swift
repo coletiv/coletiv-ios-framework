@@ -7,20 +7,20 @@
 
 import Foundation
 
-extension String {
+public extension String {
   
   /// Localized string
-  var localized: String {
+  public var localized: String {
     return NSLocalizedString(self, comment: "")
   }
   
   /// Attributed string
-  var attributed: NSAttributedString {
+  public var attributed: NSAttributedString {
     return NSAttributedString(string: self)
   }
   
   /// Mutable attributed string
-  var mutableAttributed: NSMutableAttributedString {
+  public var mutableAttributed: NSMutableAttributedString {
     return NSMutableAttributedString(string: self)
   }
   

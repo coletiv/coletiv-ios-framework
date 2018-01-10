@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension NSLayoutConstraint {
+public extension NSLayoutConstraint {
   
   /// Init with default values
   ///
@@ -19,7 +19,7 @@ extension NSLayoutConstraint {
   ///   - toItem: toItem
   ///   - multiplier: multiplier - 1.0 by default
   ///   - constant: constant - 0.0 by default
-  convenience init(item: Any, attribute: NSLayoutAttribute,
+  public convenience init(item: Any, attribute: NSLayoutAttribute,
                    relatedBy: NSLayoutRelation = .equal,
                    toItem: Any?,
                    multiplier: CGFloat = 1.0, constant: CGFloat = 0.0) {

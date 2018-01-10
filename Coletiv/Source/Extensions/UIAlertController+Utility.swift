@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIAlertController {
+public extension UIAlertController {
   
   // MARK: - Inits
   
@@ -18,7 +18,7 @@ extension UIAlertController {
   ///   - title: alert title
   ///   - message: alert message
   ///   - actionTitle: action title, if not provided the alert will be created without the action
-  convenience init(title: String, message: String, actionTitle: String? = nil) {
+  public convenience init(title: String, message: String, actionTitle: String? = nil) {
     self.init(title: title, message: message, preferredStyle: .alert)
     
     if let actionTitle = actionTitle {
@@ -33,7 +33,7 @@ extension UIAlertController {
   /// - Parameters:
   ///   - actionTitle: title for the action
   ///   - handler: action handler
-  func add(actionTitle: String, handler: ((UIAlertAction) -> Swift.Void)? = nil) {
+  public func add(actionTitle: String, handler: ((UIAlertAction) -> Swift.Void)? = nil) {
     let alertAction = UIAlertAction(title: actionTitle, style: UIAlertActionStyle.default, handler: handler)
     addAction(alertAction)
   }

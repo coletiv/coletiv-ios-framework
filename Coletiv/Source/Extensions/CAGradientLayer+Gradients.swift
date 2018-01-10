@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension CAGradientLayer {
+public extension CAGradientLayer {
   
   
   /// Returns a gradient for the colors/points provided
@@ -20,7 +20,7 @@ extension CAGradientLayer {
   ///   - startingPoint: starting point
   ///   - endPoint: end point
   /// - Returns: gradient layer
-  class func gradient(for bounds: CGRect,
+  public class func gradient(for bounds: CGRect,
                       startingColor: UIColor, endColor: UIColor,
                       startingPoint: CGPoint, endPoint: CGPoint) -> CAGradientLayer {
     

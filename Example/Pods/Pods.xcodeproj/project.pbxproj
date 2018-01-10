@@ -160,22 +160,22 @@
 		10FE077B200521B8008848B5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */,
-				10FE077D200521B8008848B5 /* UIImage+Utility.swift */,
 				10FE077E200521B8008848B5 /* Array+Utility.swift */,
-				10FE077F200521B8008848B5 /* UIAlertController+Utility.swift */,
-				10FE0780200521B8008848B5 /* UITableView+Utility.swift */,
-				10FE0781200521B8008848B5 /* String+Utility.swift */,
 				10FE0782200521B8008848B5 /* CAGradientLayer+Gradients.swift */,
-				10FE0783200521B8008848B5 /* Float+Utility.swift */,
-				10FE0784200521B8008848B5 /* UIApplication+Utility.swift */,
-				10FE0785200521B8008848B5 /* UIViewController+Utility.swift */,
 				10FE0786200521B8008848B5 /* Date+Utility.swift */,
-				10FE0787200521B8008848B5 /* UICollectionView+Utility.swift */,
-				10FE0788200521B8008848B5 /* UITextField+Utility.swift */,
+				10FE0783200521B8008848B5 /* Float+Utility.swift */,
+				10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */,
 				10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */,
-				10FE078A200521B8008848B5 /* UIViewControllerContextTransitioning+Utility.swift */,
+				10FE0781200521B8008848B5 /* String+Utility.swift */,
+				10FE077F200521B8008848B5 /* UIAlertController+Utility.swift */,
+				10FE0784200521B8008848B5 /* UIApplication+Utility.swift */,
+				10FE0787200521B8008848B5 /* UICollectionView+Utility.swift */,
+				10FE077D200521B8008848B5 /* UIImage+Utility.swift */,
+				10FE0780200521B8008848B5 /* UITableView+Utility.swift */,
+				10FE0788200521B8008848B5 /* UITextField+Utility.swift */,
 				10FE078B200521B8008848B5 /* UIView+Utility.swift */,
+				10FE0785200521B8008848B5 /* UIViewController+Utility.swift */,
+				10FE078A200521B8008848B5 /* UIViewControllerContextTransitioning+Utility.swift */,
 			);
 			name = Extensions;
 			path = Coletiv/Source/Extensions;
