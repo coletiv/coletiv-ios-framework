@@ -19,7 +19,7 @@ s.source_files  = 'Coletiv', 'Coletiv/**/*.{h,m,swift}'
 
 #Create the Extensions folder
 s.subspec 'Extensions' do |cs|
-  cs.source_files = 'Coletiv/Extensions'
+  cs.source_files = 'Coletiv/Extensions/**/*.{h,m,swift}'
 end
 
 end
