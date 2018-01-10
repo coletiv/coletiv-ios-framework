@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10730D11200639DB00114603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10730D10200639DB00114603 /* Assets.xcassets */; };
+		10730D162006642100114603 /* UIViewTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10730D152006642100114603 /* UIViewTestCase.swift */; };
 		10A24668200533370083209A /* DateTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24667200533370083209A /* DateTestCase.swift */; };
 		10A2466A200539A10083209A /* FloatTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24669200539A10083209A /* FloatTestCase.swift */; };
 		10A2466C20053C350083209A /* ImageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2466B20053C350083209A /* ImageTestCase.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		10730D10200639DB00114603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10730D152006642100114603 /* UIViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTestCase.swift; sourceTree = "<group>"; };
 		10A24667200533370083209A /* DateTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTestCase.swift; sourceTree = "<group>"; };
 		10A24669200539A10083209A /* FloatTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTestCase.swift; sourceTree = "<group>"; };
 		10A2466B20053C350083209A /* ImageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTestCase.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				10A24667200533370083209A /* DateTestCase.swift */,
 				10A24669200539A10083209A /* FloatTestCase.swift */,
 				10A2466B20053C350083209A /* ImageTestCase.swift */,
+				10730D152006642100114603 /* UIViewTestCase.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				10FE079120052289008848B5 /* ArrayTestCase.swift in Sources */,
 				10FE078F2005222E008848B5 /* StringTestCase.swift in Sources */,
 				10A24668200533370083209A /* DateTestCase.swift in Sources */,
+				10730D162006642100114603 /* UIViewTestCase.swift in Sources */,
 				10A2466C20053C350083209A /* ImageTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
