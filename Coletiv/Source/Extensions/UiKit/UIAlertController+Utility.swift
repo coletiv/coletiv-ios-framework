@@ -10,6 +10,8 @@ import UIKit
 
 public extension UIAlertController {
   
+  typealias UIAlertActionHandler = ((UIAlertAction) -> Swift.Void)
+  
   // MARK: - Inits
   
   /// Creates an alert controller with the style .alert with/o an action. The action is only created when the action is not nil.
