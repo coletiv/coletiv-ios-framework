@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54E1C1A27454E2D83759C36BC5A40DEF"
+               BlueprintIdentifier = "BEA0027BAB29D7306C80FC004DF279BB"
                BuildableName = "Coletiv.framework"
                BlueprintName = "Coletiv"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -55,7 +55,8 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
