@@ -14,10 +14,10 @@ class FloatTestCase: XCTestCase {
     
   func testFloat() {
     
-    let number1:Float = 0.0
-    let number2:Float = 0.234
-    let number3:Float = 1.1
-    let number4:Float = 1.00
+    let number1: Float = 0.0
+    let number2: Float = 0.234
+    let number3: Float = 1.1
+    let number4: Float = 1.00
     
     assert(number1.clean == "0")
     assert(number2.clean == "0.234")
