@@ -1,3 +1,6 @@
+![](https://travis-ci.com/coletiv/coletiv-ios-framework.svg?token=qCn2xszWTxz2ykKH8awx&branch=develop)
+![](https://codecov.io/gh/coletiv/coletiv-ios-framework/branch/develop/graphs/badge.svg)
+
 # Coletiv
 
 ## Example

@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		10730D11200639DB00114603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10730D10200639DB00114603 /* Assets.xcassets */; };
+		10730D162006642100114603 /* UIViewTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10730D152006642100114603 /* UIViewTestCase.swift */; };
+		10A24668200533370083209A /* DateTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24667200533370083209A /* DateTestCase.swift */; };
+		10A2466A200539A10083209A /* FloatTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24669200539A10083209A /* FloatTestCase.swift */; };
+		10A2466C20053C350083209A /* UIImageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2466B20053C350083209A /* UIImageTestCase.swift */; };
+		10FE077720051516008848B5 /* Test.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FE077920051516008848B5 /* Test.strings */; };
+		10FE078F2005222E008848B5 /* StringTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE078E2005222E008848B5 /* StringTestCase.swift */; };
+		10FE079120052289008848B5 /* ArrayTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE079020052289008848B5 /* ArrayTestCase.swift */; };
 		D6E8C4E06BE2D803271BA8DA /* Pods_Coletiv_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1567A5138E06BDCE88087D /* Pods_Coletiv_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10730D10200639DB00114603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10730D152006642100114603 /* UIViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTestCase.swift; sourceTree = "<group>"; };
+		10A24667200533370083209A /* DateTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTestCase.swift; sourceTree = "<group>"; };
+		10A24669200539A10083209A /* FloatTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTestCase.swift; sourceTree = "<group>"; };
+		10A2466B20053C350083209A /* UIImageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTestCase.swift; sourceTree = "<group>"; };
+		10FE077820051516008848B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Test.strings; sourceTree = "<group>"; };
+		10FE078E2005222E008848B5 /* StringTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTestCase.swift; sourceTree = "<group>"; };
+		10FE079020052289008848B5 /* ArrayTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTestCase.swift; sourceTree = "<group>"; };
 		2A3C2A8656F50D53FCEF6115 /* Pods-Coletiv_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coletiv_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coletiv_Tests/Pods-Coletiv_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C678C97D06B585281FEDBFC /* Pods-Coletiv_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coletiv_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coletiv_Tests/Pods-Coletiv_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Coletiv_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coletiv_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C52B2043401297E11F41106 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		83954D32FC8C9ACDD7B5CA96 /* Coletiv.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Coletiv.podspec; path = ../Coletiv.podspec; sourceTree = "<group>"; };
 		AE1567A5138E06BDCE88087D /* Pods_Coletiv_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coletiv_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +57,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		10730D1920076C1100114603 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				10A2466B20053C350083209A /* UIImageTestCase.swift */,
+				10730D152006642100114603 /* UIViewTestCase.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		10730D1A20076C1D00114603 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				10FE078E2005222E008848B5 /* StringTestCase.swift */,
+				10FE079020052289008848B5 /* ArrayTestCase.swift */,
+				10A24667200533370083209A /* DateTestCase.swift */,
+				10A24669200539A10083209A /* FloatTestCase.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		10FE07712005145F008848B5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				10FE077A20052196008848B5 /* Extensions */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		10FE07722005147F008848B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10730D10200639DB00114603 /* Assets.xcassets */,
+				10FE077920051516008848B5 /* Test.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		10FE077A20052196008848B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10730D1A20076C1D00114603 /* Foundation */,
+				10730D1920076C1100114603 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +125,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				10FE07712005145F008848B5 /* Source */,
+				10FE07722005147F008848B5 /* Resources */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -162,6 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10730D11200639DB00114603 /* Assets.xcassets in Resources */,
+				10FE077720051516008848B5 /* Test.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,11 +289,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				10A2466A200539A10083209A /* FloatTestCase.swift in Sources */,
+				10FE079120052289008848B5 /* ArrayTestCase.swift in Sources */,
+				10FE078F2005222E008848B5 /* StringTestCase.swift in Sources */,
+				10A24668200533370083209A /* DateTestCase.swift in Sources */,
+				10730D162006642100114603 /* UIViewTestCase.swift in Sources */,
+				10A2466C20053C350083209A /* UIImageTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10FE077920051516008848B5 /* Test.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FE077820051516008848B5 /* en */,
+			);
+			name = Test.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {

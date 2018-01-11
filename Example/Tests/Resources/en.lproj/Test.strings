@@ -1,0 +1,9 @@
+/* 
+  File.strings
+  Coletiv
+
+  Created by Daniel Almeida on 09/01/2018.
+  Copyright © 2018 CocoaPods. All rights reserved.
+*/
+
+"string_test" = "test_ok";

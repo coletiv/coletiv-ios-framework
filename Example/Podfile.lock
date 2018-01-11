@@ -1,5 +1,5 @@
 PODS:
-  - Coletiv (0.1.0)
+  - Coletiv (0.1)
 
 DEPENDENCIES:
   - Coletiv (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Coletiv: 8eb6ae892aec00f23f688baf4e81b82644a3b635
+  Coletiv: f00ec96add34ed67d8a907a54fa0082a2c96a123
 
 PODFILE CHECKSUM: 67a65c54fd4de39d95f33c857d9dc5f5ba3079b4
 

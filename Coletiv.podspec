@@ -13,7 +13,13 @@ s.author        = 'Coletiv Studio'
 s.platform      = :ios, '9.0'
 
 s.source        = { :git => 'https://github.com/coletiv/coletiv-ios-framework.git', :branch => 'master' }
-s.source_files  = 'Coletiv', 'Coletiv/**/*.{h,m,swift}'
+
+### Subspecs
+
+#Create the Extensions folder
+s.subspec 'Extensions' do |es|
+  es.source_files = 'Coletiv/Source/Extensions/**/*.{h,m,swift}'
+end
 
 end
 

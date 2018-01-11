@@ -5,21 +5,22 @@
 //  Created by Daniel Almeida on 03/01/2018.
 //
 
-//ONLY FOR TEST
-
 import Foundation
 
-extension String {
+public extension String {
   
-  var localized: String {
+  /// Localized string
+  public var localized: String {
     return NSLocalizedString(self, comment: "")
   }
   
-  var attributed: NSAttributedString {
+  /// Attributed string
+  public var attributed: NSAttributedString {
     return NSAttributedString(string: self)
   }
   
-  var mutableAttributed: NSMutableAttributedString {
+  /// Mutable attributed string
+  public var mutableAttributed: NSMutableAttributedString {
     return NSMutableAttributedString(string: self)
   }
   
