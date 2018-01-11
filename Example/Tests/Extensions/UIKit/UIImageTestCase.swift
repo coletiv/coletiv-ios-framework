@@ -1,5 +1,5 @@
 //
-//  ImageTestCase.swift
+//  UIImageTestCase.swift
 //  Coletiv_Tests
 //
 //  Created by Daniel Almeida on 09/01/2018.
@@ -8,7 +8,7 @@
 
 import XCTest 
 
-class ImageTestCase: XCTestCase {
+class UIImageTestCase: XCTestCase {
   
   func testImageResize() {
   
