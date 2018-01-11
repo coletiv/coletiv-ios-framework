@@ -43,7 +43,12 @@ public extension UIView {
     return frame.height
   }
   
-  // MARK: - Animations
+}
+
+
+// MARK: - Animations
+
+public extension UIView {
   
   public typealias Animations = () -> ()
   
