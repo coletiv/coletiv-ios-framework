@@ -10,14 +10,14 @@ import UIKit
 
 public extension NSMutableAttributedString {
   
-  //MARK: Vars
+  // MARK: Vars
   
   /// Range
   public var range: NSRange {
     return (string as NSString).range(of: string)
   }
 
-  //MARK: Property set methods
+  // MARK: Property set methods
   
   /// Add the color to the foreground of the mutable string
   ///

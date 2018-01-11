@@ -28,7 +28,7 @@ public extension UIAlertController {
     }
   }
   
-  //MARK: - Other
+  // MARK: - Other
   
   /// Add an action to the alert with the .default style
   ///

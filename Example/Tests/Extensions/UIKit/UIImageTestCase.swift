@@ -13,7 +13,7 @@ class UIImageTestCase: XCTestCase {
   func testImageResize() {
   
     //32 x 32 image
-    if let image = self.image(named: "apple-logo") {
+    if let image = image(named: "apple-logo") {
     
       guard
         let imageResized16 = image.resize(toWidth: 16),

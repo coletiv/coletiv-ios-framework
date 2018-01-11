@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIImage {
   
-  //MARK: - Resize image methods
+  // MARK: - Resize image methods
   
   /// Resize the the image
   ///

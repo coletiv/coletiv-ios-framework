@@ -9,7 +9,7 @@ import UIKit
 
 public extension UIView {
   
-  //MARK: - Inits
+  // MARK: - Inits
   
   public convenience init(color: UIColor) {
     self.init()
