@@ -1,7 +1,7 @@
-![](https://travis-ci.com/coletiv/coletiv-ios-framework.svg?token=qCn2xszWTxz2ykKH8awx&branch=develop)
-![](https://codecov.io/gh/coletiv/coletiv-ios-framework/branch/develop/graphs/badge.svg)
 
 # Coletiv
+
+[![Build Status](https://travis-ci.com/coletiv/coletiv-ios-framework.svg?token=qCn2xszWTxz2ykKH8awx&branch=develop)](https://travis-ci.com/coletiv/coletiv-ios-framework) [![codecov](https://codecov.io/gh/coletiv/coletiv-ios-framework/branch/develop/graph/badge.svg?token=fUSUYri84R)](https://codecov.io/gh/coletiv/coletiv-ios-framework)
 
 ## Example
 
