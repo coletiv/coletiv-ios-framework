@@ -11,7 +11,7 @@ import UIKit
 public protocol NibIdentifier {
   
   // Nib
-  static var nib:UINib { get }
+  static var nib: UINib { get }
   
   // Identifier
   static var identifier: String { get }
@@ -20,7 +20,7 @@ public protocol NibIdentifier {
 // Default initializations
 public extension NibIdentifier {
   
-  static var nib:UINib {
+  static var nib: UINib {
     return UINib(nibName: identifier, bundle: nil)
   }
 
