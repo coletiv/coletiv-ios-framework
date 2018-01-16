@@ -8,7 +8,7 @@
 import UIKit
 
 // Protocol to simplify the identification/initialization for the UIKit components
-protocol NibIdentifier {
+public protocol NibIdentifier {
   
   // Nib
   static var nib:UINib { get }
@@ -18,7 +18,7 @@ protocol NibIdentifier {
 }
 
 // Default initializations
-extension NibIdentifier {
+public extension NibIdentifier {
   
   static var nib:UINib {
     return UINib(nibName: identifier, bundle: nil)
