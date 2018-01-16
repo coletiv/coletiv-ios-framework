@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E8EF9BA276A0960BE72515D1D37817B /* Pods-Coletiv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8055AE2CADF07C88F052A6F13CF02092 /* Pods-Coletiv_Tests-dummy.m */; };
-		10191CDC200E09A900195E99 /* NibIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10191CDB200E09A900195E99 /* NibIdentifier.swift */; };
-		10191CDD200E09A900195E99 /* NibIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10191CDB200E09A900195E99 /* NibIdentifier.swift */; };
+		10191CE0200E0E6000195E99 /* NibIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10191CDF200E0E6000195E99 /* NibIdentifier.swift */; };
+		10191CE1200E0E6000195E99 /* NibIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10191CDF200E0E6000195E99 /* NibIdentifier.swift */; };
 		10A246472005274C0083209A /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0781200521B8008848B5 /* String+Utility.swift */; };
 		10A246482005274C0083209A /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0781200521B8008848B5 /* String+Utility.swift */; };
 		10A24649200527E00083209A /* NSLayoutConstraint+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */; };
@@ -61,7 +61,7 @@
 		009EE0AA0A901B38E8460CA541B81050 /* Coletiv.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Coletiv.xcconfig; sourceTree = "<group>"; };
 		0FDB5F47D6B549AEC0F07287ACC4FD3F /* Pods-Coletiv_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coletiv_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0FE3C132B744747D5FB0BD55530BD04F /* Pods-Coletiv_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coletiv_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10191CDB200E09A900195E99 /* NibIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibIdentifier.swift; sourceTree = "<group>"; };
+		10191CDF200E0E6000195E99 /* NibIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibIdentifier.swift; sourceTree = "<group>"; };
 		10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Utility.swift"; sourceTree = "<group>"; };
 		10FE077D200521B8008848B5 /* UIImage+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
 		10FE077E200521B8008848B5 /* Array+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utility.swift"; sourceTree = "<group>"; };
@@ -157,12 +157,13 @@
 			path = "Target Support Files/Pods-Coletiv_Tests";
 			sourceTree = "<group>";
 		};
-		10191CDA200E098900195E99 /* Protocols */ = {
+		10191CDE200E0E6000195E99 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				10191CDB200E09A900195E99 /* NibIdentifier.swift */,
+				10191CDF200E0E6000195E99 /* NibIdentifier.swift */,
 			);
-			path = Protocols;
+			name = Protocols;
+			path = Coletiv/Source/Protocols;
 			sourceTree = "<group>";
 		};
 		10730D17200685E900114603 /* UiKit */ = {
@@ -223,7 +224,7 @@
 		745C0B33C17CA8A6CCE8F2649F90D342 /* Coletiv */ = {
 			isa = PBXGroup;
 			children = (
-				10191CDA200E098900195E99 /* Protocols */,
+				10191CDE200E0E6000195E99 /* Protocols */,
 				10FE077B200521B8008848B5 /* Extensions */,
 				04B2D797AA7DE3717D219C195B13A23D /* Support Files */,
 			);
@@ -348,7 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10A24649200527E00083209A /* NSLayoutConstraint+Utility.swift in Sources */,
-				10191CDC200E09A900195E99 /* NibIdentifier.swift in Sources */,
+				10191CE0200E0E6000195E99 /* NibIdentifier.swift in Sources */,
 				10A2464A200527E00083209A /* UIImage+Utility.swift in Sources */,
 				10A2464B200527E00083209A /* Array+Utility.swift in Sources */,
 				10A2464C200527E00083209A /* UIAlertController+Utility.swift in Sources */,
@@ -372,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10A24658200527E70083209A /* NSLayoutConstraint+Utility.swift in Sources */,
-				10191CDD200E09A900195E99 /* NibIdentifier.swift in Sources */,
+				10191CE1200E0E6000195E99 /* NibIdentifier.swift in Sources */,
 				10A24659200527E70083209A /* UIImage+Utility.swift in Sources */,
 				10A2465A200527E70083209A /* Array+Utility.swift in Sources */,
 				10A2465B200527E70083209A /* UIAlertController+Utility.swift in Sources */,
