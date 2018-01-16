@@ -18,8 +18,11 @@ class UIViewTestCase: XCTestCase {
     
     view.frame = CGRect(x: 1, y: 2, width: 3, height: 4)
     
-    assert(view.x == 1 && view.y == 2 && view.width == 3 && view.height == 4)
-  
+    assert(view.size.height == 4)
+    assert(view.x == 1)
+    assert(view.y == 2)
+    assert(view.width == 3)
+    assert(view.height == 4)
   }
     
 }

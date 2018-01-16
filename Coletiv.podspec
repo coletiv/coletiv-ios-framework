@@ -21,5 +21,9 @@ s.subspec 'Extensions' do |es|
   es.source_files = 'Coletiv/Source/Extensions/**/*.{h,m,swift}'
 end
 
+s.subspec 'Protocols' do |ps|
+  ps.source_files = 'Coletiv/Source/Protocols/**/*.{h,m,swift}'
+end
+
 end
 

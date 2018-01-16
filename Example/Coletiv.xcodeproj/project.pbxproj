@@ -12,6 +12,7 @@
 		10A24668200533370083209A /* DateTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24667200533370083209A /* DateTestCase.swift */; };
 		10A2466A200539A10083209A /* FloatTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24669200539A10083209A /* FloatTestCase.swift */; };
 		10A2466C20053C350083209A /* UIImageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2466B20053C350083209A /* UIImageTestCase.swift */; };
+		10EB79BB200917A00023E4F0 /* UITextFieldTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB79BA200917A00023E4F0 /* UITextFieldTestCase.swift */; };
 		10FE077720051516008848B5 /* Test.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FE077920051516008848B5 /* Test.strings */; };
 		10FE078F2005222E008848B5 /* StringTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE078E2005222E008848B5 /* StringTestCase.swift */; };
 		10FE079120052289008848B5 /* ArrayTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE079020052289008848B5 /* ArrayTestCase.swift */; };
@@ -24,6 +25,7 @@
 		10A24667200533370083209A /* DateTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTestCase.swift; sourceTree = "<group>"; };
 		10A24669200539A10083209A /* FloatTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTestCase.swift; sourceTree = "<group>"; };
 		10A2466B20053C350083209A /* UIImageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTestCase.swift; sourceTree = "<group>"; };
+		10EB79BA200917A00023E4F0 /* UITextFieldTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldTestCase.swift; sourceTree = "<group>"; };
 		10FE077820051516008848B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Test.strings; sourceTree = "<group>"; };
 		10FE078E2005222E008848B5 /* StringTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTestCase.swift; sourceTree = "<group>"; };
 		10FE079020052289008848B5 /* ArrayTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTestCase.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				10A2466B20053C350083209A /* UIImageTestCase.swift */,
 				10730D152006642100114603 /* UIViewTestCase.swift */,
+				10EB79BA200917A00023E4F0 /* UITextFieldTestCase.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				10FE079120052289008848B5 /* ArrayTestCase.swift in Sources */,
 				10FE078F2005222E008848B5 /* StringTestCase.swift in Sources */,
 				10A24668200533370083209A /* DateTestCase.swift in Sources */,
+				10EB79BB200917A00023E4F0 /* UITextFieldTestCase.swift in Sources */,
 				10730D162006642100114603 /* UIViewTestCase.swift in Sources */,
 				10A2466C20053C350083209A /* UIImageTestCase.swift in Sources */,
 			);
