@@ -10,6 +10,8 @@
 		0E8EF9BA276A0960BE72515D1D37817B /* Pods-Coletiv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8055AE2CADF07C88F052A6F13CF02092 /* Pods-Coletiv_Tests-dummy.m */; };
 		10191CE0200E0E6000195E99 /* NibIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10191CDF200E0E6000195E99 /* NibIdentifier.swift */; };
 		10191CE1200E0E6000195E99 /* NibIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10191CDF200E0E6000195E99 /* NibIdentifier.swift */; };
+		1094CD75200F7C0600648492 /* Double+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094CD74200F7C0600648492 /* Double+Utility.swift */; };
+		1094CD76200F7C0600648492 /* Double+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094CD74200F7C0600648492 /* Double+Utility.swift */; };
 		10A246472005274C0083209A /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0781200521B8008848B5 /* String+Utility.swift */; };
 		10A246482005274C0083209A /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE0781200521B8008848B5 /* String+Utility.swift */; };
 		10A24649200527E00083209A /* NSLayoutConstraint+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */; };
@@ -62,6 +64,7 @@
 		0FDB5F47D6B549AEC0F07287ACC4FD3F /* Pods-Coletiv_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Coletiv_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0FE3C132B744747D5FB0BD55530BD04F /* Pods-Coletiv_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Coletiv_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		10191CDF200E0E6000195E99 /* NibIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibIdentifier.swift; sourceTree = "<group>"; };
+		1094CD74200F7C0600648492 /* Double+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Utility.swift"; sourceTree = "<group>"; };
 		10FE077C200521B8008848B5 /* NSLayoutConstraint+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Utility.swift"; sourceTree = "<group>"; };
 		10FE077D200521B8008848B5 /* UIImage+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utility.swift"; sourceTree = "<group>"; };
 		10FE077E200521B8008848B5 /* Array+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Utility.swift"; sourceTree = "<group>"; };
@@ -189,6 +192,7 @@
 				10FE077E200521B8008848B5 /* Array+Utility.swift */,
 				10FE0786200521B8008848B5 /* Date+Utility.swift */,
 				10FE0783200521B8008848B5 /* Float+Utility.swift */,
+				1094CD74200F7C0600648492 /* Double+Utility.swift */,
 				10FE0789200521B8008848B5 /* NSMutableAttributedString+Utility.swift */,
 				10FE0781200521B8008848B5 /* String+Utility.swift */,
 			);
@@ -363,6 +367,7 @@
 				10A24654200527E00083209A /* UITextField+Utility.swift in Sources */,
 				10A24655200527E00083209A /* NSMutableAttributedString+Utility.swift in Sources */,
 				10A24657200527E00083209A /* UIView+Utility.swift in Sources */,
+				1094CD75200F7C0600648492 /* Double+Utility.swift in Sources */,
 				D8B97FD06152CCD65F89EED50265A6FD /* Coletiv-dummy.m in Sources */,
 				10A246482005274C0083209A /* String+Utility.swift in Sources */,
 			);
@@ -387,6 +392,7 @@
 				10A24663200527E70083209A /* UITextField+Utility.swift in Sources */,
 				10A24664200527E70083209A /* NSMutableAttributedString+Utility.swift in Sources */,
 				10A24666200527E70083209A /* UIView+Utility.swift in Sources */,
+				1094CD76200F7C0600648492 /* Double+Utility.swift in Sources */,
 				0E8EF9BA276A0960BE72515D1D37817B /* Pods-Coletiv_Tests-dummy.m in Sources */,
 				10A246472005274C0083209A /* String+Utility.swift in Sources */,
 			);
