@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10730D11200639DB00114603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10730D10200639DB00114603 /* Assets.xcassets */; };
 		10730D162006642100114603 /* UIViewTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10730D152006642100114603 /* UIViewTestCase.swift */; };
+		1094CD78200F7C6200648492 /* DoubleTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1094CD77200F7C6200648492 /* DoubleTestCase.swift */; };
 		10A24668200533370083209A /* DateTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24667200533370083209A /* DateTestCase.swift */; };
 		10A2466A200539A10083209A /* FloatTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A24669200539A10083209A /* FloatTestCase.swift */; };
 		10A2466C20053C350083209A /* UIImageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2466B20053C350083209A /* UIImageTestCase.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		10730D10200639DB00114603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10730D152006642100114603 /* UIViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTestCase.swift; sourceTree = "<group>"; };
+		1094CD77200F7C6200648492 /* DoubleTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTestCase.swift; sourceTree = "<group>"; };
 		10A24667200533370083209A /* DateTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTestCase.swift; sourceTree = "<group>"; };
 		10A24669200539A10083209A /* FloatTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatTestCase.swift; sourceTree = "<group>"; };
 		10A2466B20053C350083209A /* UIImageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTestCase.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				10FE079020052289008848B5 /* ArrayTestCase.swift */,
 				10A24667200533370083209A /* DateTestCase.swift */,
 				10A24669200539A10083209A /* FloatTestCase.swift */,
+				1094CD77200F7C6200648492 /* DoubleTestCase.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				10A24668200533370083209A /* DateTestCase.swift in Sources */,
 				10EB79BB200917A00023E4F0 /* UITextFieldTestCase.swift in Sources */,
 				10730D162006642100114603 /* UIViewTestCase.swift in Sources */,
+				1094CD78200F7C6200648492 /* DoubleTestCase.swift in Sources */,
 				10A2466C20053C350083209A /* UIImageTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
