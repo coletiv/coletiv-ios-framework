@@ -12,7 +12,7 @@ import XCTest
 
 class DoubleTestCase: XCTestCase {
   
-  func testFloat() {
+  func testDouble() {
     
     let number1: Double = 0.0
     let number2: Double = 0.234
