@@ -38,8 +38,8 @@ public extension NSMutableAttributedString {
   /// - Parameters:
   ///   - fontSize: font size
   ///   - weight: font weight
-  public func add(fontSize: CGFloat, weight: CGFloat) {
-    let font = UIFont.systemFont(ofSize: fontSize, weight: UIFont.Weight(rawValue: weight))
+  public func add(fontSize: CGFloat, weight: UIFont.Weight) {
+    let font = UIFont.systemFont(ofSize: fontSize, weight: weight)
     addAttributes([NSAttributedStringKey.font: font], range: range)
   }
   
@@ -49,7 +49,7 @@ public extension NSMutableAttributedString {
   ///   - color: font color
   ///   - fontSize: font size
   ///   - weight: font weight
-  public func add(color: UIColor, fontSize: CGFloat, weight: CGFloat) {
+  public func add(color: UIColor, fontSize: CGFloat, weight: UIFont.Weight) {
     add(color: color)
     add(fontSize: fontSize, weight: weight)
   }
@@ -61,7 +61,7 @@ public extension NSMutableAttributedString {
   ///   - fontSize: font size
   ///   - weight: font weight
   ///   - lineSpacing: line spacing
-  public func add(color: UIColor, fontSize: CGFloat, weight: CGFloat, lineSpacing: CGFloat) {
+  public func add(color: UIColor, fontSize: CGFloat, weight: UIFont.Weight, lineSpacing: CGFloat) {
     add(color: color, fontSize: fontSize, weight: weight)
     
     let paragraphStyle = NSMutableParagraphStyle()
