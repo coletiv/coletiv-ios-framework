@@ -96,4 +96,9 @@ public extension NSMutableAttributedString {
     addAttributes([NSAttributedStringKey.strikethroughStyle: NSUnderlineStyle.styleSingle.rawValue], range: range)
   }
   
+  /// Set an underline for the string
+  public func addUnderline() {
+    addAttributes([NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle.rawValue], range: range)
+  }
+  
 }
