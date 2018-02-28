@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIViewController {
-
+  
   /// This method presents the view controller from the visible top most view controller
   /// https://stackoverflow.com/questions/15961288/presenting-a-modal-controller-without-knowing-the-current-view-controller
   ///
@@ -28,7 +28,19 @@ public extension UIViewController {
     } else {
       present(viewController, animated: animated, completion: completion)
     }
+  }
+  
+  /// This method returns the top most view controller presented
+  ///
+  /// - Parameter viewController: view controller to start searching
+  public func visiblePresentedViewController() -> UIViewController {
     
+    guard
+      let viewController = presentedViewController
+      else { return self }
+    
+    return viewController.visiblePresentedViewController()
   }
   
 }
+
