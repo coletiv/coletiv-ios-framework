@@ -35,9 +35,9 @@ public extension UIViewController {
   /// - Parameter viewController: view controller to start searching
   public func visiblePresentedViewController() -> UIViewController {
     
-    guard let viewController = presentedViewController else {
-      return self
-    }
+    guard
+      let viewController = presentedViewController
+      else { return self }
     
     return viewController.visiblePresentedViewController()
   }
