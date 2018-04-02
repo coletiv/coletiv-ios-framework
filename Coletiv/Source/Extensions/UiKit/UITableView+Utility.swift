@@ -19,4 +19,35 @@ public extension UITableView {
     return indexPath.section < self.numberOfSections && indexPath.row < self.numberOfRows(inSection: indexPath.section)
   }
   
+  /// Layouts the table view header applying auto-layout constraints
+  /// Thanks to: http://www.codeido.com/2018/02/dynamic-uitableview-header-view-height-using-auto-layout/
+  func layoutTableHeaderView() {
+    
+    guard let headerView = tableHeaderView else { return }
+    headerView.translatesAutoresizingMaskIntoConstraints = false
+    
+    let headerWidth = headerView.bounds.size.width;
+    let temporaryWidthConstraints = NSLayoutConstraint.constraints(withVisualFormat: "[headerView(width)]",
+                                                                   options: NSLayoutFormatOptions(rawValue: UInt(0)),
+                                                                   metrics: ["width": headerWidth],
+                                                                   views: ["headerView": headerView])
+    
+    headerView.addConstraints(temporaryWidthConstraints)
+    
+    headerView.setNeedsLayout()
+    headerView.layoutIfNeeded()
+    
+    let headerSize = headerView.systemLayoutSizeFitting(UILayoutFittingCompressedSize)
+    let height = headerSize.height
+    var frame = headerView.frame
+    
+    frame.size.height = height
+    headerView.frame = frame
+    
+    tableHeaderView = headerView
+    
+    headerView.removeConstraints(temporaryWidthConstraints)
+    headerView.translatesAutoresizingMaskIntoConstraints = true
+  }
+  
 }
