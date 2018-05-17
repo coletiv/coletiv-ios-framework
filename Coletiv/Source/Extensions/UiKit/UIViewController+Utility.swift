@@ -11,7 +11,6 @@ import UIKit
 public extension UIViewController {
   
   /// This method presents the view controller from the visible top most view controller
-  /// https://stackoverflow.com/questions/15961288/presenting-a-modal-controller-without-knowing-the-current-view-controller
   ///
   /// - Parameters:
   ///   - viewController: view conetroller that will be presented
@@ -19,28 +18,35 @@ public extension UIViewController {
   ///   - completion: completion handler
   public func presentFromVisible(_ viewController: UIViewController, animated: Bool, completion: (() -> Void)? = nil) {
     
-    if let navigationController = self as? UINavigationController {
-      navigationController.topViewController?.presentFromVisible(viewController, animated: animated, completion: completion)
-    } else if let tabBarController = self as? UITabBarController {
-      tabBarController.selectedViewController?.presentFromVisible(viewController, animated: animated, completion: completion)
-    } else if let presentedViewController = presentedViewController {
-      presentedViewController.presentFromVisible(viewController, animated: animated, completion: completion)
-    } else {
-      present(viewController, animated: animated, completion: completion)
-    }
+    let visibleController = visiblePresentedViewController()
+    visibleController.present(viewController, animated: animated, completion: completion)
+    
   }
   
   /// This method returns the top most view controller presented
+  /// https://stackoverflow.com/questions/15961288/presenting-a-modal-controller-without-knowing-the-current-view-controller
   ///
   /// - Parameter viewController: view controller to start searching
   public func visiblePresentedViewController() -> UIViewController {
     
-    guard
-      let viewController = presentedViewController
-      else { return self }
+    var viewController = self
     
-    return viewController.visiblePresentedViewController()
+    if
+      let navigationController = self as? UINavigationController,
+      let top =  navigationController.topViewController {
+      viewController = top.visiblePresentedViewController()
+    }
+    else if
+      let tabBarController = self as? UITabBarController,
+      let selected = tabBarController.selectedViewController {
+      viewController = selected.visiblePresentedViewController()
+    }
+    else if
+      let presentedViewController = presentedViewController {
+      viewController = presentedViewController.visiblePresentedViewController()
+    }
+    
+    return viewController
   }
   
 }
-
