@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name          = 'Coletiv'
-s.version       = '0.1.1'
+s.version       = '0.2.0'
 s.summary       = 'This framework contains the common code for the Coletiv iOS apps.'
 
 s.description   = <<-DESC 'Coletiv contains extensions, subclasses, methods... Used within the Swift projects.'
