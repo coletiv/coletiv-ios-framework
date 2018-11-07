@@ -36,7 +36,7 @@ public extension UIAlertController {
   ///   - actionTitle: title for the action
   ///   - handler: action handler
   public func add(actionTitle: String, handler: ((UIAlertAction) -> Swift.Void)? = nil) {
-    let alertAction = UIAlertAction(title: actionTitle, style: UIAlertActionStyle.default, handler: handler)
+    let alertAction = UIAlertAction(title: actionTitle, style: UIAlertAction.Style.default, handler: handler)
     addAction(alertAction)
   }
   
