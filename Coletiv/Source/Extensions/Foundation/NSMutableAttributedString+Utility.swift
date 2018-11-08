@@ -23,14 +23,14 @@ public extension NSMutableAttributedString {
   ///
   /// - Parameter color: foreground color
   public func add(color: UIColor) {
-    addAttributes([NSAttributedStringKey.foregroundColor: color], range: range)
+    addAttributes([NSAttributedString.Key.foregroundColor: color], range: range)
   }
   
   /// Add kerning value the the string
   ///
   /// - Parameter kern: kerning
   public func add(kern: CGFloat) {
-    addAttributes([NSAttributedStringKey.kern: kern], range: range)
+    addAttributes([NSAttributedString.Key.kern: kern], range: range)
   }
   
   /// Set the font size and weight
@@ -40,7 +40,7 @@ public extension NSMutableAttributedString {
   ///   - weight: font weight
   public func add(fontSize: CGFloat, weight: UIFont.Weight) {
     let font = UIFont.systemFont(ofSize: fontSize, weight: weight)
-    addAttributes([NSAttributedStringKey.font: font], range: range)
+    addAttributes([NSAttributedString.Key.font: font], range: range)
   }
   
   /// Set the color, size and weight for the font
@@ -67,7 +67,7 @@ public extension NSMutableAttributedString {
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.lineSpacing = lineSpacing
     
-    addAttributes([NSAttributedStringKey.paragraphStyle: paragraphStyle], range: range)
+    addAttributes([NSAttributedString.Key.paragraphStyle: paragraphStyle], range: range)
   }
   
   /// Set the font line spacing
@@ -77,7 +77,7 @@ public extension NSMutableAttributedString {
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.lineSpacing = lineSpacing
     
-    addAttributes([NSAttributedStringKey.paragraphStyle: paragraphStyle], range: range)
+    addAttributes([NSAttributedString.Key.paragraphStyle: paragraphStyle], range: range)
   }
   
   /// Set the font line height
@@ -88,17 +88,17 @@ public extension NSMutableAttributedString {
     paragraphStyle.minimumLineHeight = lineHeight
     paragraphStyle.maximumLineHeight = lineHeight
     
-    addAttributes([NSAttributedStringKey.paragraphStyle: paragraphStyle], range: range)
+    addAttributes([NSAttributedString.Key.paragraphStyle: paragraphStyle], range: range)
   }
   
   /// Set the strikethroughStyle for the string
   public func addStrikeThrough() {
-    addAttributes([NSAttributedStringKey.strikethroughStyle: NSUnderlineStyle.styleSingle.rawValue], range: range)
+    addAttributes([NSAttributedString.Key.strikethroughStyle: NSUnderlineStyle.single.rawValue], range: range)
   }
   
   /// Set an underline for the string
   public func addUnderline() {
-    addAttributes([NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle.rawValue], range: range)
+    addAttributes([NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue], range: range)
   }
   
 }

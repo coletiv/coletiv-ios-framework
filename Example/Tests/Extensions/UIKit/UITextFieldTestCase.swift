@@ -21,7 +21,7 @@ class UITextFieldTestCase: XCTestCase {
     
     assert(textField.placeHolderColor == .green)
     
-    let attributes = [NSAttributedStringKey.foregroundColor: UIColor.green]
+    let attributes = [NSAttributedString.Key.foregroundColor: UIColor.green]
     let attributedString = NSAttributedString(string: placeHolderText, attributes: attributes)
     assert(textField.attributedPlaceholder?.isEqual(to: attributedString) ?? false)
   }

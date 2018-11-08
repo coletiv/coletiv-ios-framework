@@ -15,14 +15,14 @@ public extension UITextField {
     get {
       guard let attributedPlaceholder = attributedPlaceholder else { return nil }
       
-      let attributeKey = NSAttributedStringKey.foregroundColor
+      let attributeKey = NSAttributedString.Key.foregroundColor
       var range = NSRange(location: 0, length: attributedPlaceholder.length)
       
       let attribute = attributedPlaceholder.attribute(attributeKey, at: 0, effectiveRange: &range)
       return attribute as? UIColor
     }
     set {
-      let attributes = [NSAttributedStringKey.foregroundColor: newValue ?? .clear]
+      let attributes = [NSAttributedString.Key.foregroundColor: newValue ?? .clear]
       attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: attributes)
     }
   }
